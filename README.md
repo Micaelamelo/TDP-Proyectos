@@ -1,4 +1,4 @@
-# TDP-Proyecto
+# TDP-Proyectos
 Proyecto 0 - Tecnología de programación
 
 En la carpeta "src" se encuentra la implementación de la aplicación.
