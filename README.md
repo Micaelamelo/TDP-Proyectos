@@ -1,9 +1,4 @@
 # TDP-Proyectos
-Proyecto 0 - Tecnología de programación
+Proyecto X - Consideraciones
 
-En la carpeta "src" se encuentra la implementación de la aplicación.
-En la carpeta "jar" está disponible el JarFile para ser descargado.
-
-Proyecto 1- Tecnología de Programación
-
-En la carpeta Proyecto 1 - "src" se encuentra el diseño starUML del Bomberman. En la sub-carpeta "ImagenUML" está la imagen jpg del mismo diseño.
+Para que funcione bomberman.jar, es necesario incorporarlo en una carpeta junto con los archivos que se encuentran en la carpeta "Jar".
