@@ -173,7 +173,7 @@ public class Juego {
 	 * 
 	 * @param bomba Bomba que se creo
 	 */
-	public void añadirBomba(Bomba bomba){
+	public void aÃ±adirBomba(Bomba bomba){
 		manejador.add(bomba.getGrafico());
 	}
 	
@@ -181,7 +181,7 @@ public class Juego {
 	 * 
 	 * @param p Power up que se encontro
 	 */
-	public void añadirPowerUp(PowerUp p){
+	public void aÃ±adirPowerUp(PowerUp p){
 		manejador.add(p.getOGrafico().getGrafico());
 	}
 	
@@ -203,11 +203,11 @@ public class Juego {
 	}
 	
 	/**Envia mensaje a la gui
-	 * Añade la imagen del bomberman muerto
+	 * AÃ±ade la imagen del bomberman muerto
 	 */
 	public void bombermanMuerto(){
 		manejador.add(bomberman.getPGrafico().destruir());
-
+		bomberman=null;
 	}
 	
 	/**Envia mensaje a la gui para eliminar la imagen de la pared que ha sido destruida
@@ -252,10 +252,10 @@ public class Juego {
 		return labels;
 	}
 	
-	/**Envia mensaje a la gui para añadir la imagen horizontal de la explosion en la celda c
+	/**Envia mensaje a la gui para aÃ±adir la imagen horizontal de la explosion en la celda c
 	 * 
-	 * @param labels Lista donde se agrega la nueva imagen añadida
-	 * @param c celda a añadir la nueva imagen
+	 * @param labels Lista donde se agrega la nueva imagen aÃ±adida
+	 * @param c celda a aÃ±adir la nueva imagen
 	 * @param ancho ancho de la celda
 	 * @param alto alto de la celda
 	 */
@@ -266,10 +266,10 @@ public class Juego {
 		etiqueta.setBounds(c.getX()*alto, c.getY()*ancho, ancho, alto);	
 	}
 	
-	/**Envia mensaje a la gui para añadir la imagen vertical de la explosion en la celda c
+	/**Envia mensaje a la gui para aÃ±adir la imagen vertical de la explosion en la celda c
 	 * 
-	 * @param labels Lista donde se agrega la nueva imagen añadida
-	 * @param c celda a añadir la nueva imagen
+	 * @param labels Lista donde se agrega la nueva imagen aÃ±adida
+	 * @param c celda a aÃ±adir la nueva imagen
 	 * @param ancho ancho de la celda
 	 * @param alto alto de la celda
 	 */
